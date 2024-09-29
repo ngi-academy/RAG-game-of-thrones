@@ -1,4 +1,4 @@
-RAG Techiques on Game Of Thrones Dataset
+# RAG Techniques on Game Of Thrones Dataset
 
 ## Data
 [source](https://www.kaggle.com/datasets/dasbootstrapping/game-of-thrones-episode-data)
@@ -8,6 +8,8 @@ RAG Techiques on Game Of Thrones Dataset
 ### Game of Thrones Data Exploration with LangChain & Pandas 🐉
 
 [This Jupyter notebook](01_simple_rag.ipynb) used to explore Game of Thrones episodes data using natural language queries, powered by LangChain, Pandas, and OpenAI's LLMs. By using the `create_pandas_dataframe_agent`, users can ask plain English questions and get meaningful insights from the GoT dataset without manually writing complex queries.
+
+![Pandas Dataframe Agent](docs/figures/Pandas_Dataframe_Agent.jpg)
 
 #### What's inside?
 
@@ -23,6 +25,6 @@ RAG Techiques on Game Of Thrones Dataset
 **Limitations:** Larger datasets can lead to hallucinations or missing clarifications in complex queries.
 **Token Usage & Costs:** Overall token consumption with a total cost of `$0.02` for `28` OpenAI requests.
 
-For a detailed explanation of the experiment, observations, and conclusions, check out the full blog here: [Exploring Game of Thrones Data with LangChain & Pandas]().
+For a detailed explanation of the experiment, observations, and conclusions, check out the full blog here: [Exploring Game of Thrones Data with LangChain & Pandas](https://ngi-academy.github.io/blog/2024/09/27/BasicRAG.html).
 
 Feel free to clone, run, and experiment with the notebook! 🚀
