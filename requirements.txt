@@ -1,0 +1,6 @@
+# Simple Rag
+pandas
+langchain
+langchain-openai
+langchain-experimental
+tabulate
